@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace, Arial, Helvetica, sans-serif;
+  color: white;
+}
+body {
+  background-color: #070d1b;
+}
+main{
+  padding: 50px 50px;
+  background-color: #0F131C;
+}
+h1{
+  font-size: 3.0rem;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 1.5rem;
+}
+
+p{
+color: rgb(187, 187, 187);
+text-align: justify;
+
+}
+
+h4{
+  color: #FEDB5D;
+  font-size: 1rem;
+}
+
+.text-fucsia {
+  color: #ff6ea1;
+}
+
+.nav-link:hover {
+  color: #ff6ea1;
+
+}
+
+.line-container {
+  display: flex;
+  align-items: center;
+}
+
+.line-container > h2 {
+  margin: 0;
+}
+
+.line-container > hr {
+  flex-grow: 1;
+  margin: 0 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.btn-outline-green {
+  background-color: #06a17b;
+}
+
+.btn-outline-purple {
+  background-color:#945ADB;
+}
+
+.btn-outline-fucsia {
+  background-color: #ff6ea1;
+}
+
+.btn-outline-fucsia, .btn-outline-purple, .btn-outline-green{
+  color: white;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.btn-outline-fucsia:hover,.btn-outline-purple:hover,.btn-outline-green:hover {
+  background-color:#FEDB5D;
+  color: black;
+}
+
+.card {
+  background-color: whitesmoke;
+  opacity: 90%;
+
+}
+
+.card:hover {
+  background-color: #FEDB5D;
+}
+
+.card-title{
+  font-size: 1rem;
+  font-weight: bold;
+  color: black
+}
+.card-text {
+  color: gray;
+font-size: 0.8rem;
+}
+
+.img-hover:hover {
+  opacity: 0.1;
+}
+
+
+#mas_columnas {
+  display: none;
+}
+
+
+#toggle_mas:checked ~ #mas_columnas {
+  display: flex;
+}
+
