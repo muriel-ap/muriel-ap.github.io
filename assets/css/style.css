@@ -109,6 +109,9 @@ font-size: 0.8rem;
   opacity: 0.1;
 }
 
+.costume-margin {
+  margin-top:50px;
+}
 
 #mas_columnas {
   display: none;
